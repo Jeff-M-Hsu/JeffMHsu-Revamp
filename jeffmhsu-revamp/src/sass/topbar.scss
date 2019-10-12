@@ -1,0 +1,45 @@
+@font-face{
+  font-family: "Clemente";
+  src: url("../resources/fonts/Clemente.ttf");
+}
+
+$font-stack: "Clemente", Candara, Helvetica, sans-serif;
+$square-sm: 1.8em;
+
+.topbar{
+	display: block;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #FCFCFC;
+}
+#title{
+  margin-top: 1%;
+  margin-left: 10%;
+  float: left;
+  font: 100% $font-stack;
+  font-size: 2.9em;
+  text-decoration: none;
+  color: black;
+}
+.icon{
+  width: $square-sm;
+  height: $square-sm;
+  padding-right: 2px;
+}
+#email{
+  width: 2.4em;
+}
+#social-media{
+  display: flex;
+  float: right;
+  margin-top: 3%;
+  margin-right: 10%;
+  padding-bottom: 1vh;
+}
+@media (max-width: 450px){
+  #social-media{
+    float: left;
+    margin-left: 10%;
+  }
+}

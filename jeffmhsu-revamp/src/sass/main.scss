@@ -1,0 +1,80 @@
+$font-light: 100;
+
+.main{
+  padding-bottom: 6%;
+}
+.landing{
+  height: 97vh;
+}
+.intro{
+  font-weight: $font-light;
+  padding-bottom: 4vh;
+  width: 80%;
+}
+.summary{
+  padding-top: 40vh;
+  margin-left: 10%;
+}
+#resume{
+  font-weight: $font-light;
+  color: black;
+  font-size: 1.4em;
+}
+.deck{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 7vh;
+  width: 90%;
+  margin-left: 5%;
+}
+.card{
+  width: 44%;
+  color: black;
+  text-decoration: none;
+}
+.card:hover{
+  box-shadow: 0 0 0 1px #BBBBBB;
+}
+.container{
+  margin-left: 2vh;
+  padding-bottom: 3vh;
+  height: 5.5em;
+}
+img{
+  width: 100%; 
+  height: auto;
+}
+.description{
+  margin-right: 2vh;
+}
+p{
+  font-size: .95em;
+}
+.tags{
+	margin-left: 2vh;
+}
+@media (max-width: 450px){
+  .summary{
+    padding-top: 34vh;
+  }
+  .card{
+    width: 100%;
+  }
+}
+@media (max-width: 600px){
+  .intro{
+    width: 90%;
+  }
+  .summary{
+    margin-left: 5%;
+  }
+  .deck{
+    padding-top: 2vh;
+    width: 100%;
+    margin: 0;
+  }
+  .card{
+    width: 100%;
+  }
+}
