@@ -5,7 +5,7 @@ class Card extends Component{
   render(){
     return(
       <Link className="card" to={ `${this.props.page}` }>
-        <img src={ this.props.image } />
+        <img alt="" src={ this.props.image } />
         <div className="container">
           <h4>{ this.props.title }</h4>
           <p className="description">{ this.props.description }</p>

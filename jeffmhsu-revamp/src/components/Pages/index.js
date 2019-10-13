@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import "../../sass/page.scss";
+import { Link } from 'react-router-dom';
 
 class Page extends Component{
   render(){
@@ -7,7 +8,7 @@ class Page extends Component{
       <div className="project">
         <h1 id="projectname">{this.props.title}</h1>
         <div className="row">
-          <img className="cover" src={this.props.img}></img>
+          <img className="cover" alt="" src={this.props.img}></img>
         </div>
         <div className="row-space"></div>
         <div className="row">
@@ -22,14 +23,14 @@ class Page extends Component{
           <div className="right-col">
             <p>{this.props.description}</p>
             <p>
-              You can check it out <a className="ext-link" target="_blank" href={this.props.ext}>here</a>.
+              You can check it out <a className="ext-link" target="_blank"rel="noopener noreferrer" href={this.props.ext}>here</a>.
             </p>
           </div>
         </div>
         <div className="row-space"></div>
         <div className="row-space"></div>
         <div className="row">
-          <a href="/" id="back-button"><h2 id="return">Return</h2></a>
+          <Link to={"/"} id="back-button"><h2 id="return">Return</h2></Link>
         </div>
       </div>
     );

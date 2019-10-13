@@ -3,7 +3,7 @@ import "../../sass/style.scss";
 import TopBar from '../TopBar';
 import Main from '../Main';
 import Page from '../Pages';
-import { Route, Link, BrowserRouter as Router, Switch } from 'react-router-dom';
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
 import Jeffmhsu from '../../resources/img/jeffmhsu.png';
 import Honeycomb from '../../resources/img/honeycomb.png';
 import Fixmeadrink from '../../resources/img/fixmeadrink.png';
