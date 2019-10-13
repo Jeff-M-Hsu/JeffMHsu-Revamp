@@ -10,7 +10,9 @@ class TopBar extends Component{
   render(){
     return(
       <div className="topbar">
+        <div className="link-container">
         <Link to={"/"} id="title">Jeffrey Hsu</Link>
+        </div>
         <div id="social-media">
           <a className="icon-link" rel="noopener noreferrer" href="https://www.instagram.com/jeffhsu42/" target="_blank"><img className="icon" alt="Instagram logo" src={ Instagram }></img></a>
           <a className="icon-link" rel="noopener noreferrer" href="https://www.linkedin.com/in/jeffrey-hsu-54a232122/" target="_blank"><img className="icon" alt="Linkedin logo" src={ Linkedin }></img></a>

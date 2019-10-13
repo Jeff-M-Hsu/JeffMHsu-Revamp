@@ -15,15 +15,19 @@ $square-sm: 1.8em;
 	width: 100%;
 	background-color: #FCFCFC;
 }
-#title{
+.link-container{
   padding: 1%;
   margin-left: 9%;
   float: left;
+  width: auto;
+  text-align: left;
+  width: 100%;
+}
+#title{
   font: 100% $font-stack;
   font-size: 2.9em;
   text-decoration: none;
   color: black;
-  width: 100%;
 }
 #social-media{
   display: flex;
