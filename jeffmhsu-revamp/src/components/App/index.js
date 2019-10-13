@@ -26,7 +26,7 @@ const App = () => {
             date="July-August, 2019"
             purpose="Personal Project"
             stack="React | SASS | AWS S3/Route 53"
-            ext="https://github.com/Jeff-M-Hsu/JeffMHsu.com"
+            ext="https://github.com/Jeff-M-Hsu/JeffMHsu-Revamp"
             description="JeffMHsu.com is my personal website that I designed and built from scratch
               as a way to increase my online presence and have a personalized, visually 
               comprehensive source to display my work. The design is modern, clean, professional, 
