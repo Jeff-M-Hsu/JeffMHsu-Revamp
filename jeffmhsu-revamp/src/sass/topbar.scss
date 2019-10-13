@@ -7,20 +7,35 @@ $font-stack: "Clemente", Candara, Helvetica, sans-serif;
 $square-sm: 1.8em;
 
 .topbar{
-	display: block;
+	display: flex;
+  justify-content: space-between;
 	position: fixed;
 	top: 0;
+  left: 0;
 	width: 100%;
 	background-color: #FCFCFC;
 }
 #title{
-  margin-top: 1%;
-  margin-left: 10%;
+  padding: 1%;
+  margin-left: 9%;
   float: left;
   font: 100% $font-stack;
   font-size: 2.9em;
   text-decoration: none;
   color: black;
+  width: 100%;
+}
+#social-media{
+  display: flex;
+  float: right;
+  margin-right: 9%;
+  padding-bottom: 1vh;
+}
+.icon-link{
+  display:flex;
+  margin-top: 2%;
+  align-items: center;
+  justify-content: center;
 }
 .icon{
   width: $square-sm;
@@ -30,14 +45,10 @@ $square-sm: 1.8em;
 #email{
   width: 2.4em;
 }
-#social-media{
-  display: flex;
-  float: right;
-  margin-top: 3%;
-  margin-right: 10%;
-  padding-bottom: 1vh;
-}
 @media (max-width: 450px){
+  .topbar{
+    flex-wrap: wrap;
+  }
   #social-media{
     float: left;
     margin-left: 10%;
