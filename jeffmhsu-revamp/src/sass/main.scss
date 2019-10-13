@@ -24,14 +24,14 @@ $font-light: 100;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  padding-top: 7vh;
-  width: 90%;
-  margin-left: 5%;
+  margin: 2%;
 }
 .card{
-  width: 44%;
+  flex-wrap: wrap;
+  width: 35%;
   color: black;
   text-decoration: none;
+  margin: 2%;
 }
 .card:hover{
   box-shadow: 0 0 0 1px #BBBBBB;
@@ -68,11 +68,6 @@ p{
   }
   .summary{
     margin-left: 5%;
-  }
-  .deck{
-    padding-top: 2vh;
-    width: 100%;
-    margin: 0;
   }
   .card{
     width: 100%;

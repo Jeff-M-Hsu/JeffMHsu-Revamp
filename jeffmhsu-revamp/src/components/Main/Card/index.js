@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Card extends Component{
   render(){
     return(
-      <a className= "card" href="">    
+      <a className="card" href="">    
         <img src={ this.props.image } />
         <div className="container">
           <h4>{ this.props.title }</h4>
