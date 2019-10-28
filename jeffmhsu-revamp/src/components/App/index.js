@@ -4,12 +4,14 @@ import TopBar from '../TopBar';
 import Main from '../Main';
 import Page from '../Pages';
 import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import JHsuComponents from '../../resources/img/jhsu-components.png';
 import Jeffmhsu from '../../resources/img/jeffmhsu.png';
 import Honeycomb from '../../resources/img/honeycomb.png';
 import Fixmeadrink from '../../resources/img/fixmeadrink.png';
 import Bumblebee from '../../resources/img/bumblebee.png';
 import Jscrape from '../../resources/img/jscrape.png';
 import CC from '../../resources/img/currencyconverter.PNG';
+import Soon from '../../resources/img/soon.png';
 
 const App = () => {
   return (
@@ -19,12 +21,31 @@ const App = () => {
         <Switch>
           <Route exact path='/' component={
             () => <Main 
+              jhsucomponents={JHsuComponents}
               jeffmhsu={Jeffmhsu}
               honeycomb={Honeycomb}
               fixmeadrink={Fixmeadrink}
               bumblebee={Bumblebee}
               jscrape={Jscrape}
               cc={CC}
+              wip={Soon}
+            />}
+          />
+          <Route exact path='/jhsucomponents' component={
+            () => <Page 
+              title="JHsu Components" 
+              img={JHsuComponents} 
+              date="October 2019 - ongoing" 
+              purpose="Personal Project" 
+              stack="React | Styled Components | Storybook | Jest | NPM" 
+              ext="https://www.npmjs.com/package/jhsu-components" 
+              description="JHsu Components is a library of Styled Components in React, and is available on npm. Its purpose 
+                is to learn about Styled Components, publishing on npm, using Storybook and Jest for visual regression testing, 
+                practicing component design, and just getting more experience with React. On top of this, JHsu Components will provide a central resource for me 
+                to easily re-use components across projects, and I intend on using this library going forward to design various websites and web applications 
+                to further hone my design skills as well as showcase the versatility that JHsu Components will have. Right now I have set myself the challenge of 
+                implementing at least one component from conception to implementation to testing per day while I work on other projects and job applications, and I'm hoping 
+                to be able to create an professional looking website using JHsu Components before the end of the year."
             />}
           />
           <Route exact path='/jeffmhsu' component={
@@ -119,6 +140,19 @@ const App = () => {
                 currency exchange rates for over 168 currencies, including cryptocurrency such as Bitcoin. I wrote the program as a way of getting more 
                 practice with Java, Swing, and to learn about HttpClient, which provides a lightweight solution for sending requests to the API."
             />} 
+          />
+          <Route exact path='/keeper' component={
+            () => <Page 
+              title="Keeper" 
+              img={Soon} 
+              date="October 2019 - ongoing" 
+              purpose="Personal Project" 
+              stack="React | TailwindCSS | Back End TBD" 
+              ext="https://github.com/Jeff-M-Hsu/Keeper" 
+              description="A Progressive Web Application personal management system built with React and TailwindCSS. Right now this project is on ice while 
+                I work on some other things, although I am hoping to return to it once JHsu Components becomes a more mature library in order to use it  
+                to recreate this app. Right now it's more of a supplementary testing suite and playground for JHsu Components."
+            />}
           />
         </Switch>
       </React.Fragment>
