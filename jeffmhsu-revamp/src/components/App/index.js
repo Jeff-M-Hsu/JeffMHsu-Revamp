@@ -100,7 +100,7 @@ const App = () => {
               title="Bumblebee"
               img={Bumblebee}
               date="February-March, 2019"
-              purpose="Commission Sample"
+              purpose="Commission"
               stack="Node.js | Discord.io"
               ext="https://github.com/Jeff-M-Hsu/Bumblebee"
               description="A gaming community named HoneyComb asked me to create a Discord bot for their server to provide more 
@@ -116,7 +116,7 @@ const App = () => {
               title="JScrape"
               img={Jscrape}
               date="April, 2019"
-              purpose="Personal Project"
+              purpose="Developer Tool"
               stack="Java | Swing | HtmlUnit"
               ext="https://github.com/Jeff-M-Hsu/JScrape"
               description="I built a web scraper in Java to semi-automate data gathering and greatly improve efficiency while working on 
