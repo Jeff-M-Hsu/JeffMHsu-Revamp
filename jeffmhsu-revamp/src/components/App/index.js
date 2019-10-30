@@ -39,13 +39,11 @@ const App = () => {
               purpose="Personal Project" 
               stack="React | Styled Components | Storybook | Jest | NPM" 
               ext="https://www.npmjs.com/package/jhsu-components" 
-              description="JHsu Components is a library of Styled Components in React, and is available on npm. Its purpose 
-                is to learn about Styled Components, publishing on npm, using Storybook and Jest for visual regression testing, 
-                practicing component design, and just getting more experience with React. On top of this, JHsu Components will provide a central resource for me 
+              description="JHsu Components is a library of Styled Components in React, and is available on npm. JHsu Components will provide a central resource for me 
                 to easily re-use components across projects, and I intend on using this library going forward to design various websites and web applications 
-                to further hone my design skills as well as showcase the versatility that JHsu Components will have. Right now I have set myself the challenge of 
-                implementing at least one component from conception to implementation to testing per day while I work on other projects and job applications, and I'm hoping 
-                to be able to create an professional looking website using JHsu Components before the end of the year."
+                to further hone my design skills as well as showcase the versatility that JHsu Components will have. Right now I am working on 
+								implementing at least one component from conception to implementation to testing per day while I work on other projects, and I'm planning  
+                on creating a professional website using JHsu Components before the end of the year."
             />}
           />
           <Route exact path='/jeffmhsu' component={
@@ -121,11 +119,11 @@ const App = () => {
               purpose="Personal Project"
               stack="Java | Swing | HtmlUnit"
               ext="https://github.com/Jeff-M-Hsu/JScrape"
-              description="I built a web scraper in Java to save time on scouring through websites for bee jokes, facts, pick up lines, etc. while working on 
+              description="I built a web scraper in Java to semi-automate data gathering and greatly improve efficiency while working on 
                 Bumblebee. I chose Java because at the time it was the language I was most proficient with. I chose HtmlUnit over JSoup because 
                 I felt that HtmlUnit would be a better tool to learn as it is typically used for testing web applications while being capable of being used 
                 for web scraping, which is more applicable to the type of development that I am pursuing. I also decided to make a GUI for it to make it easier 
-                to use and more accessible on short notice."
+                to use and more accessible."
             />} 
           />
           <Route exact path='/currencyconverter' component={
