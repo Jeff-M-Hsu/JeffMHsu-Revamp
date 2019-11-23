@@ -9,7 +9,7 @@ $square-sm: 1.8em;
 .topbar{
 	display: flex;
   justify-content: space-between;
-	position: absolute;
+	position: fixed;
 	top: 0;
   left: 0;
 	width: 100%;
